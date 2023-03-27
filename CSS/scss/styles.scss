@@ -9,26 +9,6 @@
 	font-weight: 100;
 	font-style: normal;
 }
-@keyframes animation-ellipses-item {
-	from {
-		width: 0;
-		height: 0;
-	}
-	to {
-		width: 530px;
-		height: 530px;
-	}
-}
-@keyframes animation-ellipses {
-	from {
-		width: 0px;
-		height: 0px;
-	}
-	to {
-		width: 600px;
-		height: 400px;
-	}
-}
 
 .services {
 	display: flex;
@@ -105,148 +85,7 @@
 	font-size: 16px;
 	line-height: 22px;
 }
-.main-2 {
-	background-color: $background-color_3;
-	border-radius: 12px;
-	max-width: 320px;
-	padding: 16px 20px;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
-	background-color: $background-color_3;
-	border-radius: 12px;
-	padding: 16px 20px;
-	max-width: 1020px;
-	height: 396px;
-	margin: 0 190px 87px 190px;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
-}
-.reasons {
-	background-color: $background-color_4;
-	border-radius: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 320px;
-	justify-items: center;
-	align-items: center;
-	margin-bottom: 5px;
-	background-color: $background-color_4;
-	border-radius: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 300px;
-	height: 176px;
-}
-.number-01 {
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 40px;
-	line-height: 47px;
-	color: $color_1;
-	margin: 5px;
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 40px;
-	line-height: 47px;
-	color: $color_1;
-	margin: 10px;
-}
-.text-01 {
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 21px;
-	color: $color_1;
-	text-align: left;
-	margin: 5px;
-	white-space: pre-line;
-	font-family: $font-family_3;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 21px;
-	color: $color_1;
-	text-align: left;
-	margin: 9px;
-	white-space: pre-line;
-}
-.common-text {
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 12px;
-	text-align: left;
-	white-space: pre-line;
-	margin: 10px;
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: left;
-	white-space: pre-line;
-	margin: 10px;
-	height: 75px;
-}
-.circle-box {
-	position: relative;
-	max-width: 1400;
-	height: 800px;
-	max-width: 950px;
-	height: 300px;
-	margin: 0px auto 30px auto;
-}
-.circle-text {
-	display: flex;
-	flex-direction: column;
-	max-width: 380px;
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-	white-space: pre-line;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	max-width: 380px;
-	font-family: $font-family_3;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: left;
-	white-space: pre-line;
-}
-.circle {
-	display: none;
-	margin: 0 auto;
-	display: block;
-	position: absolute;
-	top: 50px;
-	left: 30%;
-	width: 320px;
-	height: 320px;
-	border: #000000 1px solid;
-	border-radius: 50%;
-}
-div.circle {
-	img {
-		margin: 79px 70px 79px 70px;
-		margin: 79px 70px 79px 70px;
-	}
-}
-.elipse {
-	display: none;
-	display: block;
-	width: 24px;
-	height: 24px;
-	border-radius: 50%;
-	background-color: $background-color_5;
-	padding-bottom: 4px;
-	color: $color_3;
-	font-size: 24px;
-	text-align: center;
-}
+
 .attention {
 	max-width: 600px;
 	margin: 0 auto;
@@ -677,82 +516,7 @@ div.contacts-phone3 {
 	height: 44px;
 	margin: 90px 394px 50px 365px;
 }
-div.circles {
-	height: 500px;
-}
-.circles {
-	animation-name: animation-ellipses;
-	animation-duration: 0.5s;
-	animation-timing-function: linear;
-	animation-fill-mode: forwards;
-	animation-delay: 5s;
-}
-.c-1 {
-	position: absolute;
-	text-align: right;
-	top: 15px;
-	left: -90px;
-}
-.c-2 {
-	position: absolute;
-	top: 160px;
-	left: -120px;
-	text-align: right;
-}
-.c-3 {
-	position: absolute;
-	top: 300px;
-	left: -80px;
-	text-align: right;
-}
-.c-4 {
-	position: absolute;
-	top: 15px;
-	right: -30px;
-	text-align: left;
-}
-.c-5 {
-	position: absolute;
-	top: 160px;
-	right: -60px;
-	text-align: left;
-}
-.c-6 {
-	position: absolute;
-	top: 300px;
-	right: -40px;
-	text-align: left;
-}
-.e-1 {
-	position: absolute;
-	top: 80px;
-	left: 330px;
-}
-.e-2 {
-	position: absolute;
-	top: 190px;
-	left: 270px;
-}
-.e-3 {
-	position: absolute;
-	top: 310px;
-	left: 330px;
-}
-.e-4 {
-	position: absolute;
-	top: 80px;
-	right: 380px;
-}
-.e-5 {
-	position: absolute;
-	top: 190px;
-	right: 330px;
-}
-.e-6 {
-	position: absolute;
-	top: 310px;
-	right: 370px;
-}
+
 .block-1 {
 	display: flex;
 	max-width: 700px;
@@ -936,37 +700,7 @@ div.circles {
 		margin-top: 54px;
 		height: 97px;
 	}
-	.footer-boxes {
-		display: flex;
-		flex-direction: row;
-		width: 380px;
-		height: 120px;
-		background: #FFFFFF;
-		border: 1px solid #D8E1E1;
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		border-radius: 8px;
-		position: relative;
-		z-index: 1;
-		position: relative;
-		animation-name: display-boxes-section;
-		animation-duration: 1.3s;
-		animation-timing-function: ease-in-out;
-	}
-	@keyframes 
-		display-boxes-section {
-			0% { margin-left: 50px;
-			opacity: 0;
-		}
-	50% {
-		margin-left: 50px;
-		opacity: 0;
-	}
-	100% {
-		margin-left: 130px;
-		opacity: 1;
-	}
-}
+
 .triangle{
    @include triangle (50px, $styleColor)
-}
-}}
+}}}

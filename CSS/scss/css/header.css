@@ -1,0 +1,112 @@
+.header {
+  max-width: 320px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  max-width: 183px;
+  height: 40px;
+  text-align: left;
+  align-content: center;
+}
+
+.tooth {
+  max-width: 34px;
+  height: 34px;
+  margin-right: 3px;
+}
+
+.logo-text {
+  height: 40px;
+  font-family: "Sofia";
+  font-weight: 400;
+  font-size: 16px;
+  color: #46b1de;
+}
+
+.navigation {
+  display: none;
+}
+
+.languages {
+  display: none;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.phone {
+  height: 40px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+a.number::before {
+  content: url(/src/img/phone.svg);
+}
+
+.burger-menu {
+  display: block;
+  width: 20px;
+  height: 15px;
+  position: relative;
+  background: transparent;
+  border: none;
+}
+.burger-menu span {
+  content: "";
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  top: calc(50% - 1px);
+}
+.burger-menu::before {
+  content: "";
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  top: 0;
+  transition-duration: 0.2s;
+}
+.burger-menu::after {
+  content: "";
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  transition-duration: 0.2s;
+}
+.burger-menu:focus::before {
+  top: calc(50% - 1px);
+  transform: rotate(-45deg);
+  background-color: #46b1de;
+}
+.burger-menu:focus:after {
+  top: calc(50% - 1px);
+  transform: rotate(45deg);
+  background-color: #46b1de;
+}
+.burger-menu:focus span {
+  width: 0;
+}
+.burger-menu:hover span {
+  background-color: #46b1de;
+}
+.burger-menu:hover::before {
+  background-color: #46b1de;
+}
+.burger-menu:hover::after {
+  background-color: #46b1de;
+}
